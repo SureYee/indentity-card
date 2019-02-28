@@ -1,0 +1,24 @@
+{
+    "name": "sureyee/identity-card",
+    "description": "identity card parse tool",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yixu",
+            "email": "yixu@sureyee.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sureyee\\IdentityCard\\" : "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
